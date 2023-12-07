@@ -20,7 +20,39 @@
             h1{
                 margin-top:80px;
                 margin-bottom:20px;
+            }
+        }
+        @media (min-width: 1900px) {
+            .flex-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 55px;
+                margin-left: 0px;
+                gap: 60px;
+            }
+            h1{
+                margin-top:80px;
+                margin-bottom:20px;
+                margin-left: 35px;
+                z-index: 2;
+                font-size: 50px;
 
+            }
+            img{
+                width:260px;
+
+            }
+            #picture{
+                border-radius: 50%;
+                outline: 102px solid #212529;
+                position: relative;
+                z-index: 1;
+                height: 295px;
+                width: 255px;
+            }
+            h3{
+                font-size: 30px;
             }
         }
     </style>
@@ -46,7 +78,7 @@
     <div class="flex-container" style="margin-top: 100px;">
         <h1 style="margin-right: 35px;">Hey,<br>I'm Vasilis. <br><span style="color: red;">Junior Front-end<br>Developer.</span></h1>
         <div class="flex-container">
-            <img src="./animation of myself.PNG" width="210px" style="position: absolute;" alt="A picture of myself">
+            <img src="./ΦΩΤΟΓΡΑΦΙΑ - ΣΜΥΡΛΟΓΛΟΥ ΒΑΣΙΛΕΙΟΣ.jpg" width="210px" style="position: absolute;" alt="A picture of myself">
             <div id="picture"></div></div>
         </div>
 </body>
