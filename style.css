@@ -43,12 +43,12 @@ a{
     height: 240px;
     width: 210px;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 .flex-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-top: 65px;
     margin-left: 0px;
 }
